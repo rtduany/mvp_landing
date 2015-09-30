@@ -13,7 +13,7 @@ class SignUp(models.Model):
 	timestamp = models.DateTimeField(auto_now_add=False, auto_now=True)
 
 	#add a unicode function that takes 1 parameter
-	def __unicode__(slef):
+	#def __unicode__(slef):
 		#a smart unicode to take of any different accent
-		return smart_unicode(self.email)
+		#return smart_unicode(self.email)
 
