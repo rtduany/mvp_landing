@@ -14,5 +14,6 @@ class SignUp(models.Model):
 
 	#add a unicode function that takes 1 parameter
 	def __unicode__(slef):
-		self.email
+		#a smart unicode to take of any different accent
+		return smart_unicode(self.email)
 
