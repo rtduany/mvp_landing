@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.encoding import smart_unicode
 
 # Create your models here.
 class SignUp(models.Model):
@@ -14,3 +15,4 @@ class SignUp(models.Model):
 	#add a unicode function that takes 1 parameter
 	def __unicode__(slef):
 		self.email
+
