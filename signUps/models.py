@@ -7,7 +7,10 @@ class SignUp(models.Model):
 	email = models.EmailField()
 
 	#add a time stamp
-	timestamp models.DateTimeField(auto_now_add=True, auto_now=False)
+	timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
 	#add an updated stamp
-	timestamp models.DateTimeField(auto_now_add=False, auto_now=True)
+	timestamp = models.DateTimeField(auto_now_add=False, auto_now=True)
 
+	#add a unicode function that takes 1 parameter
+	def __unicode__(slef):
+		self.email
