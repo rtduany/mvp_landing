@@ -2,9 +2,9 @@ from django.db import models
 from django.utils.encoding import smart_unicode
 
 # Create your models here.
-class SignUp(models.Model):
-	first_name = models.Charfield(max_length=120, null=True, blank=True)
-	last_name = models.Charfield(max_length=120, null=True, blank=True)
+class signUps(models.Model):
+	first_name = models.CharField(max_length=120, null=True, blank=True)
+	last_name = models.CharField(max_length=120, null=True, blank=True)
 	email = models.EmailField()
 
 	#add a time stamp
