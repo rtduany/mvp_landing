@@ -85,5 +85,5 @@ STATIC_URL = '/static/'
 #Template location
 TEMPLATE_DIRS = (
 	os.path.join(os.path.dirname(BASE_DIR), "static", "templates"),
-	'/home/ruot/Documents/projects/first_app/env'
+	#'/home/ruot/Documents/projects/first_app/env'
 )
