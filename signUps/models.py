@@ -8,4 +8,6 @@ class SignUp(models.Model):
 
 	#add a time stamp
 	timestamp models.DateTimeField(auto_now_add=True, auto_now=False)
+	#add an updated stamp
+	timestamp models.DateTimeField(auto_now_add=False, auto_now=True)
 
